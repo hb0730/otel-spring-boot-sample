@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: otel-spring-boot-sample
+
+otel:
+  exporter:
+    otlp:
+      endpoint:
+      headers:
+        Authorization:
+        stream-name:
